@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "test",
+  "name": "YouTube Oldest-First Playlis",
   "version": "0.1",
-  "description": "test",
+  "description": "YouTubeチャンネルの全動画を「古い順」で新しいプレイリストに自動追加するChrome拡張",
   "background": {
     "service_worker": "background.js"
   },
