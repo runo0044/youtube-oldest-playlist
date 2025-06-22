@@ -16,7 +16,7 @@ YouTubeチャンネルの全動画を「古い順」で新しいプレイリス�
 3. `npm run check-env` で環境チェック
 4. `npm run build` でTypeScriptビルド
 5. `npm run zip` で `extension.zip` を生成
-6. Chromeの拡張機能ページで「パッケージ化されていない拡張機能を読み込む」から `dist/` を選択
+6. 拡張機能画面でドラック&ドロップ(開発者モードが必要な場合は有効化)
 
 ## APIキー・OAuthクライアントの取得
 - [Google Cloud Console](https://console.cloud.google.com/apis/credentials) でYouTube Data API v3を有効化し、APIキーとOAuthクライアントID(JSON)を取得
@@ -32,6 +32,8 @@ YouTubeチャンネルの全動画を「古い順」で新しいプレイリス�
 - `src/credentials/` ディレクトリは `.gitignore` で除外されています。APIキーやOAuth情報は絶対に公開しないでください。
 - Google APIの利用制限・レート制限に注意してください。
 - 本拡張は個人利用・学習用途を想定しています。
+- copilot agent mode & chatGPT-4.1により作成しました。
+- 本拡張に関連する損害に一切責任を負いません。
 
 ## ライセンス
 MIT
