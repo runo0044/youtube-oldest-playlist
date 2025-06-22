@@ -1,0 +1,16 @@
+{
+  "name": "youtube_users_list",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts,.tsx",
+    "check-env": "bash ./check-env.sh",
+    "zip": "rm -rf extension && mkdir -p extension && cp -r dist/* extension/ && cp src/manifest.json src/popup.html src/styles.css extension/ && cp -r src/icons extension/ && sed -i '/^\\s*\"use strict\";/d;/Object\\.defineProperty.*/d' extension/background.js && cd extension && zip -r ../extension.zip . && cd .. && rm -rf extension"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.258",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}

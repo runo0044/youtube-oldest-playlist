@@ -1,0 +1,35 @@
+body {
+  min-width: 250px;
+  font-family: sans-serif;
+  background: #fff;
+  color: #222;
+  margin: 0;
+  padding: 1em;
+}
+
+#statusLog {
+  margin-top: 1em;
+  font-size: 0.95em;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+button {
+  background: #c4302b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:active {
+  background: #a32a23;
+}
+
+#progressBar {
+  margin-top: 1em;
+  width: 100%;
+  height: 16px;
+}

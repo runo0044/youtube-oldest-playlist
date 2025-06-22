@@ -1,0 +1,6 @@
+node_modules/
+dist/
+extension.zip
+src/credentials/
+.env
+*.log
